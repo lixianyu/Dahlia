@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello">Hello World, DahliaActivity!</string>
-    <string name="app_name">Dahlia</string>
-
+    <string name="hello">请输入微博内容：</string>
+    <string name="app_name">可以预发的微博</string>
+    <string name="send_weibo">发布微博</string>
+    <string name="send_weibo_timing">微博预发</string>
+    <string name="weibo_sina">新浪微博</string>
+    <string name="weibo_tengxun">腾讯微博</string>
+    <string name="weibo_sohu">搜狐微博</string>
+    <string name="weibo_wangyi">网易微博</string>
+    <string name="firstInputContent">请先输入微博内容</string>
+    <string name="alert_dialog_username">用户名：</string>
+    <string name="alert_dialog_password">密码：</string>
+    <string name="alert_dialog_text_entry_sina">新浪微博</string>
+    <string name="alert_dialog_text_entry_tengxun">腾讯微博</string>
+    <string name="alert_dialog_text_entry_sohu">搜狐微博</string>
+    <string name="alert_dialog_text_entry_wangyi">网易微博</string>
+    <string name="alert_dialog_ok">确认</string>
+    <string name="alert_dialog_cancel">取消</string>
+    <string name="insert_pic">插入图片</string>
+    <string name="insert_video">插入视频</string>
+    <string name="insert_take_photo">拍摄照片</string>
+    <string name="insert_take_video">拍视频</string>
+    <string name="del_pic">删除图像</string>
+    <string name="menu_account">帐号管理</string>
+    <string name="menu_timing_queue">队列管理</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_reset">重置</string>
+    <string name="menu_exit">退出</string>
+    <string name="menu_add_account">添加帐号</string>
 </resources>

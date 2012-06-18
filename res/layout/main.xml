@@ -1,12 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    >
+	<TextView  android:id="@+id/textviewmy"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/hello"
+	    
+    />
+    
+    <EditText android:id="@+id/edit_weibo"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+    />
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello" />
-
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="0,1,2">
+	    <TableRow>
+		    <Button android:id="@+id/insert_pic"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/insert_pic"
+		    />
+<!--
+		    <Button android:id="@+id/insert_video"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/insert_video"
+		        
+		    />
+-->
+		    <Button android:id="@+id/insert_take_photo"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/insert_take_photo"
+		    />
+<!--
+		    <Button android:id="@+id/insert_take_video"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/insert_take_video"
+		    />
+ -->
+ 			<Button android:id="@+id/del_pic"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/del_pic"
+		    />
+	    </TableRow>
+	</TableLayout>
+	
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="0,1">
+	    <TableRow>
+		    <Button android:id="@+id/send_weibo"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/send_weibo"
+		        
+		    />
+		    <Button android:id="@+id/send_weibo_timing"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/send_weibo_timing"
+		        
+		    />
+	    </TableRow>
+	</TableLayout>
+	
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/table_layout_checkbox"
+	    android:stretchColumns="0,1">
+	    <TableRow>
+			<CheckBox android:id="@+id/checkbox_sina"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/weibo_sina" />
+		                            
+		    <CheckBox android:id="@+id/checkbox_tengxun"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/weibo_tengxun" />
+	    </TableRow>
+	    <TableRow>
+			<CheckBox android:id="@+id/checkbox_sohu"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/weibo_sohu" />
+				
+			<CheckBox android:id="@+id/checkbox_wangyi"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/weibo_wangyi" />
+		</TableRow>
+	</TableLayout>
 </LinearLayout>
